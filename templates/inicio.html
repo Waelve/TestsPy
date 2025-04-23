@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test de Personalidad</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    .contenedor {
+      background: white;
+      color: #333;
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    input[type="text"] {
+      padding: 12px;
+      width: 80%;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #8e2de2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #6b20b7;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>¡Descubre qué tipo de animal eres! 🐾</h1>
+    <form method="POST">
+      <p>Escribe tu nombre para comenzar:</p>
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <br>
+      <button type="submit">Comenzar Test</button>
+    </form>
+  </div>
+</body>
+</html>
