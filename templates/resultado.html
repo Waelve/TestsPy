@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Resultado del Test</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #f12711, #f5af19);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .contenedor {
+      background-color: #fff;
+      color: #333;
+      padding: 40px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 18px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .emoji {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+    .descripcion {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #f12711;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #c21f0f;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>{{ nombre }}, ¡Eres un {{ resultado }}!</h1>
+    <p class="descripcion">{{ descripcion }}</p>
+    <div class="emoji">{{ emoji }}</div>
+    <a href="{{ url_for('inicio') }}" class="btn">🔁 Volver a empezar</a>
+    <!-- Botón para compartir en WhatsApp -->
+<a 
+class="btn" 
+style="background-color: #25D366; margin-left: 10px;" 
+href="https://api.whatsapp.com/send?text={{ nombre }}, según este test eres un {{ resultado }} {{ emoji }}. Haz el test aquí! 👉 https://mi-sitio.com/test"
+target="_blank"
+>
+📲 Compartir por WhatsApp
+</a>
+  </div>
+</body>
+</html>

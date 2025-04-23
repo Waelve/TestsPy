@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Test en Progreso</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+    .contenedor {
+      background-color: #fff;
+      color: #333;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    button {
+      padding: 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      background-color: #0072ff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #005ad3;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h2>Pregunta {{ index }} de {{ total }}</h2>
+    <p>{{ pregunta.pregunta }}</p>
+    <form method="post">
+      {% for texto, animal in pregunta.opciones.items() %}
+  <button type="submit" name="respuesta" value="{{ animal }}">{{ texto }}</button>
+{% endfor %}
+    </form>
+  </div>
+</body>
+</html>
