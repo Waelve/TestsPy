@@ -1,0 +1,90 @@
+{
+  "preguntas": [
+    {
+      "pregunta": "¿Qué prefieres hacer un fin de semana?",
+      "opciones": {
+        "Dormir todo el día 😴": "gato",
+        "Salir a correr 🏃‍♂️": "perro",
+        "Salir y mis hobbies 🐯": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Cómo describes tu personalidad?",
+      "opciones": {
+        "Tranquila y observadora 🧘": "gato",
+        "Leal y energética ⚡": "perro",
+        "Fuerte y solitaria 🐅": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Cuál es tu comida favorita?",
+      "opciones": {
+        "Pescado 🐟": "gato",
+        "Carne 🍖": "tigre",
+        "Bocadillos 😂": "perro"
+      }
+    },
+    {
+      "pregunta": "¿Qué prefieres hacer en tu tiempo libre?",
+      "opciones": {
+        "Dormir en el sofá 🛋️": "gato",
+        "Jugar a la pelota ⚽": "perro",
+        "Mis hobbies 🦋": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Cómo te sientes cuando estás solo?",
+      "opciones": {
+        "Feliz y relajado 😌": "gato",
+        "Triste y ansioso 😢": "perro",
+        "Indiferente 😐": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Qué tipo de música prefieres?",
+      "opciones": {
+        "Música suave 🎶": "gato",
+        "Rock y pop 🎸": "perro",
+        "Música tribal 🥁": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Cómo te gusta pasar el tiempo con tus amigos?",
+      "opciones": {
+        "En casa viendo películas 🍿": "gato",
+        "Jugando al aire libre 🌳": "perro",
+        "Salir a pasear 🐾": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Qué tipo de clima prefieres?",
+      "opciones": {
+        "Frío y nublado 🌧️": "gato",
+        "Soleado y cálido ☀️": "perro",
+        "Ventoso y salvaje 🌪️": "tigre"
+      }
+    },
+    {
+      "pregunta": "¿Cómo te sientes en una fiesta?",
+      "opciones": {
+        "Prefiero quedarme en casa 🏠": "gato",
+        "Me encanta socializar 🎉": "perro",
+        "No me gusta estar rodeado de gente 🚫": "tigre"
+      }
+    }
+  ],
+  "descripciones": {
+    "gato": {
+      "emoji": "🐱",
+      "descripcion": "Eres independiente, curioso y disfrutas de la tranquilidad y la comodidad de tu hogar."
+    },
+    "perro": {
+      "emoji": "🐶",
+      "descripcion": "Eres leal, sociable y siempre estás listo para jugar y acompañar a los demás."
+    },
+    "tigre": {
+      "emoji": "🐯",
+      "descripcion": "Eres valiente, enérgico y te gusta explorar nuevos territorios."
+    }
+  }
+}
